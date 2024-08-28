@@ -43,3 +43,39 @@ body {
     color: white;
 }
 
+.main-content {
+    margin-left: 200px; /* Offset for the vertical menu */
+    width: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Banner Styles */
+.header-banner {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-banner p {
+    margin: 5px 0 0;
+    font-size: 18px;
+}
+
+
+.content {
+    padding: 20px;
+    background-color: white;
+    flex-grow: 1;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
